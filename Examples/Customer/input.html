@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Form Student</title>
+  </head>
+</html>
+    <body>
+        <form action="output.php" method="post">
+            <label>Name</label>  
+            <input type="text" name="name" placeholder="Enter name"/>
+            <br/>
+
+            <label>DOB</label>
+            <input type="date" name="dob" placeholder="Enter DOB"/>
+            <br/><br>
+
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Enter Email"/>
+            <br/><br>
+
+            <label>Type Customer</label><br>
+            <input type="radio" name="type" value="home" placeholder="Home">Home 
+            <input type="radio" name="type" value="business" placeholder="Business">Business 
+            <br/><br>
+
+            <label for="pack">Choose Pack</label>
+            <select name="pack" id="pack">
+                <option disabled selected>Select your year</option>
+                <option value="20">20M</option>
+                <option value="30">30M</option>
+                <option value="50">50M</option>
+            </select>
+            <br/><br>
+
+            <label>Address</label> 
+            <br/>
+            <textarea name="add" rows="10" cols="50" placeholder="Enter address"></textarea>
+            <br/>
+            <input type="submit" value="Add" />
+        
+        </form>
+    </body>
+</html>
