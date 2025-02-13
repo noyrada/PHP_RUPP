@@ -78,7 +78,7 @@ if(isset($_POST['id'])) {
     class Student extends Score {
         private $id;
         private $name;
-        private $groups;
+        private $group;
         private $year;
 
         public function __construct($id, $name, $group, $year, $wad, $linux, $mis, $se, $ooad) {
